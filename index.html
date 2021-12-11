@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mike Fitzpatrick's Site</title>
-    <link type="stylesheet" type="text/css" href="style.css">
+    <title>Contact Mike Fitzpatrick</title>
+    <link href="style.css" rel="stylesheet" type="style/css">
 </head>
 <body>
-    
+    <header>
+        <h1>Mike Fitzpatrick</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/mlfitz2" target="_blank">Github</a></li>
+            <li><a href="https://www.facebook.com/Mlfitz2" target="_blank">Facebook</a></li>
+        </ul>
+    </nav>
+    <main>
+        <figure>
+            <img src="pic.jpg" alt="Mike Fitzpatrick steers a boat.">
+        </figure>
+        <figcaption>To contact Mike Fitzpatrick, please fill out the form below and he will reach out to you as soon as possible. Thank you!</figcaption>
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name"> 
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="email" id="email" name="user-email">
+                    </li>
+                    <li>
+                        <label class="text-right" for="phone-number">Phone Number:</label>
+                        <input type="number" id="phone-number" name="user-phone-number">
+                    </li>
+                    <li>
+                        <label class="text-right" for="message">Message:</label>
+                        <br>
+                        <textarea type="text" id="message" name="user-message" rows="10" cols="100"></textarea>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">Submit</button>
+                  </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
