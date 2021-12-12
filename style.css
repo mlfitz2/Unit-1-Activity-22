@@ -12,7 +12,7 @@ body {
 header {
     height: 60px;
     width: 100%;
-    background-color: #23409c;
+    background-color: #142357;
     color: #f0edd6;
     border-top: 10px solid #e06d0e;
     border-bottom: 10px solid #e06d0e;
@@ -31,7 +31,7 @@ nav {
     margin-top: 80px;
     height: 40px;
     width: 100%;
-    background-color: #23409c;
+    background-color: #142357;
     color: #f0edd6;
     border-bottom: 10px solid #e06d0e;
     text-align: center;
@@ -50,4 +50,20 @@ a {
 
 a:visited {
     text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+
+figcaption {
+    font-size: 18px;
 }
