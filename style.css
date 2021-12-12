@@ -14,30 +14,30 @@ header {
     width: 100%;
     background-color: #142357;
     color: #f0edd6;
-    border-top: 10px solid #e06d0e;
-    border-bottom: 10px solid #e06d0e;
+    border: 10px solid #e06d0e;
     text-align: center;
     line-height: 20px;
     position: fixed;
     top: 0;
+    right: 0;
     z-index: 1;
 }
 
-h1 {
-    padding-top: 20px;
+.header-table {
+    width: 100%;
 }
 
-nav {
-    margin-top: 80px;
-    height: 40px;
-    width: 100%;
-    background-color: #142357;
-    color: #f0edd6;
-    border-bottom: 10px solid #e06d0e;
-    text-align: center;
-    line-height: 40px;
-    position: relative;
-    text-decoration: none;
+#nav-area {
+    float:right;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+
+h1 {
+    padding-top: 16px;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 150px;
 }
 
 a {
@@ -52,12 +52,16 @@ a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    color: #e06d0e;
+}
+
 img {
     height: 400px;
     width: 400px;
     border: 10px solid black;
     padding: 5px;
-    margin: 20px;
+    margin: 90px 20px 20px 20px;
 }
 
 figure {
@@ -84,7 +88,7 @@ form, h2 {
 footer {
     height: 40px;
     width: 100%;
-    border-top: 10px solid #e06d0e;
+    border-top: 6px solid #e06d0e;
     background-color: #142357;
     color: #f0edd6;
     text-align: right;
