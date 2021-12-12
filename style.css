@@ -52,10 +52,6 @@ a:visited {
     text-decoration: none;
 }
 
-main {
-    text-align: center;
-}
-
 img {
     height: 400px;
     width: 400px;
@@ -64,8 +60,17 @@ img {
     margin: 20px;
 }
 
+figure {
+    text-align: center;
+}
+
 figcaption {
     font-size: 18px;
+    text-align: center;
+}
+
+form, h2 {
+    padding-left: 40%;
 }
 
 #contact-form {
@@ -76,7 +81,16 @@ figcaption {
     padding: 20px;
 }
 
-.form-label {
-    text-align: left;
-    padding-bottom: 5px;
+footer {
+    height: 40px;
+    width: 100%;
+    border-top: 10px solid #e06d0e;
+    background-color: #142357;
+    color: #f0edd6;
+    text-align: right;
+    line-height: 40px;
+}
+
+#footer-text {
+    padding-right: 5em;
 }
