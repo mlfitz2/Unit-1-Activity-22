@@ -94,3 +94,11 @@ footer {
 #footer-text {
     padding-right: 5em;
 }
+
+#submit-button {
+border: 4px solid #e06d0e;
+padding: 10px;
+background-color: #142357;
+color: #f0edd6;
+font-family: garamond;
+}
