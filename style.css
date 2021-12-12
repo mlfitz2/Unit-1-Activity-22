@@ -1,8 +1,11 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 body {
     background-color: #f0edd6;
     font-family: garamond;
-    margin: 0;
-    padding: 0;
     position: relative;
 }
 
@@ -11,14 +14,40 @@ header {
     width: 100%;
     background-color: #23409c;
     color: #f0edd6;
-    position: fixed;
-    border: 10px solid #e06d0e;
+    border-top: 10px solid #e06d0e;
+    border-bottom: 10px solid #e06d0e;
     text-align: center;
     line-height: 20px;
-    margin-top: -16px;
-    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    padding-top: 20px;
 }
 
 nav {
-    padding-top: 40px;
+    margin-top: 80px;
+    height: 40px;
+    width: 100%;
+    background-color: #23409c;
+    color: #f0edd6;
+    border-bottom: 10px solid #e06d0e;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    text-decoration: none;
+}
+
+a {
+    color: #f0edd6;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    text-decoration: none;
 }
