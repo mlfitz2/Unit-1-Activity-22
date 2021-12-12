@@ -15,12 +15,10 @@ header {
     background-color: #142357;
     color: #f0edd6;
     border: 10px solid #e06d0e;
-    text-align: center;
     line-height: 20px;
     position: fixed;
-    top: 0;
-    right: 0;
     z-index: 1;
+    top: 0;
 }
 
 .header-table {
@@ -29,15 +27,15 @@ header {
 
 #nav-area {
     float:right;
-    padding-top: 18px;
+    line-height: 60px;
     padding-right: 20px;
 }
 
 h1 {
-    padding-top: 16px;
-    text-transform: capitalize;
+    line-height: 60px;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 120px;
+    font-size: 40px;
 }
 
 a {
@@ -74,7 +72,7 @@ figcaption {
 }
 
 form, h2 {
-    padding-left: 40%;
+    text-align: center;
 }
 
 #contact-form {
