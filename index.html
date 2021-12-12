@@ -7,53 +7,67 @@
     <title>Contact Mike Fitzpatrick</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Mike Fitzpatrick</h1>
     </header>
+
     <nav>
         <a href="https://github.com/mlfitz2" target="_blank"><b>GitHub</b></a>
         <a href="https://www.facebook.com/Mlfitz2" target="_blank"><b>Facebook</b></a>
         <a href="#contact-form"><b>Contact Me</b></a>
     </nav>
+
     <main>
         <figure>
             <img src="pic.jpg" alt="Mike Fitzpatrick steers a boat.">
         </figure>
+
         <figcaption>To contact Mike Fitzpatrick, please fill out the form below and he will reach out to you as soon as possible. Thank you!</figcaption>
+        
         <section class="contact-form" id="contact-form">
             <h2>Contact Me</h2>
+            <br>
             <form>
-                <ul>
+                <ul style="list-style-type:none">
                     <li>
-                        <label class="text-right" for="name">Name:</label>
+                        <label class="form-label" for="name">Name:</label>
                         <br>
-                        <input type="text" id="name" name="user-name"> 
+                        <input type="text" id="name" name="user-name" style="width: 300px"> 
                     </li>
+                    <br>
                     <li>
-                        <label class="text-right" for="email">Email:</label>
+                        <label class="form-label" for="email">Email:</label>
                         <br>
-                        <input type="email" id="email" name="user-email">
+                        <input type="email" id="email" name="user-email" style="width: 300px">
                     </li>
+                    <br>
                     <li>
-                        <label class="text-right" for="phone-number">Phone Number:</label>
+                        <label class="form-label" for="phone-number">Phone Number:</label>
                         <br>
-                        <input type="number" id="phone-number" name="user-phone-number">
+                        <input type="number" id="phone-number" name="user-phone-number" style="width: 300px">
                     </li>
+                    <br>
                     <li>
-                        <label class="text-right" for="message">Message:</label>
+                        <label class="form-label" for="message">Message:</label>
                         <br>
-                        <textarea type="text" id="message" name="user-message" rows="15"></textarea>
+                        <textarea type="text" id="message" name="user-message" rows="15" cols="39"></textarea>
                     </li>
+                    <br>
                 </ul>
                 <div class="text-center">
                     <button type="submit">Submit</button>
                   </div>
             </form>
         </section>
+
     </main>
+
     <footer class="text-center">
         © 2021 by Fitzpatrick Web Design
     </footer>
+
 </body>
+
 </html>

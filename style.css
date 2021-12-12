@@ -67,3 +67,16 @@ img {
 figcaption {
     font-size: 18px;
 }
+
+#contact-form {
+    background-color: #142357;
+    color: #f0edd6;
+    border-top: 10px solid #e06d0e;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form-label {
+    text-align: left;
+    padding-bottom: 5px;
+}
