@@ -45,7 +45,7 @@ h1 {
      text-decoration: none;
      color: #f0edd6;
      padding: 20px;
-     transition: all 400ms linear:
+     transition: all 400ms linear;
  }
 
  a:hover {
@@ -62,10 +62,14 @@ main {
     align-items: center;
 }
 
+figure {
+    margin: 1%;
+}
+
 #main-pic {
     border: solid black 10px;
     padding: 5px;
-    width: 50%;
+    width: 400px;
     align-items: center;
 }
 
@@ -73,26 +77,32 @@ figcaption {
     display: none;
 }
 
+.contact-form {
+    margin: 1%;
+}
+
 h2 {
     text-align: center;
 }
 
-#submit-button {
+.submit-button-area {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 1%;
 }
 
-@media screen and (max-width:800px) {
-    h1 {
-        font-size: 1.5em;
-    }
-    nav {
-        font-size: 1em;
-    }
-    main {
-        flex-direction: column;
-    }
+#submit-button {
+    background-color: #131c72;
+    color: #f0edd6;
+    padding: 10px;
+    font-family: garamond;
+    transition: all 400ms linear;
+}
+
+#submit-button:hover {
+    color: #e6880e;
+    padding: 15px;
 }
 
 footer {
@@ -106,8 +116,47 @@ footer {
     border-top: solid 10px #e6880e;
     bottom: 0;
     position: fixed;
+    justify-content: right;
 }
 
-#footer-text {
-    text-align: right;
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        float: left;
+        
+    }
+
+    nav {
+        font-size: .9em;
+        float: left;
+    }
+
+    main {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    figure {
+        text-align: center;
+    }
+
+    #main-pic {
+        width: 50%;
+    }
+
+    .contact-form {
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 20px;
+        justify-content: center;
+    }
 }
+
+
+
